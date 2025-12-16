@@ -1,0 +1,460 @@
+﻿/* 司机管理页面样式 - 基于用户管理样式调整 */
+.user-management {
+    padding: 2rem;
+    margin-top: 16px;
+}
+
+.management-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-filter {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+    .search-box input {
+        width: 95%;
+        padding: 0.8rem 1rem 0.8rem 2.5rem;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        font-size: 1rem;
+        transition: border-color 0.2s ease;
+    }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #2E7D32;
+            box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.1);
+        }
+
+    .search-box i {
+        position: absolute;
+        left: 0.8rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #616E7C;
+    }
+
+.filter-select {
+    padding: 0.8rem 1rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 14px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    min-width: 180px;
+    transition: border-color 0.2s ease;
+}
+
+    .filter-select:focus {
+        outline: none;
+        border-color: #2E7D32;
+        box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.1);
+    }
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+    .user-table:hover {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .user-table th,
+    .user-table td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .user-table th {
+        background-color: #f9f9f9;
+        font-weight: 600;
+        color: #616E7C;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+    }
+
+    .user-table tr:last-child td {
+        border-bottom: none;
+    }
+
+    .user-table tr:hover {
+        background-color: #fafafa;
+    }
+
+.driver-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.8rem;
+    border: 2px solid #f0f0f0;
+}
+
+.driver-info {
+    display: flex;
+    align-items: center;
+}
+
+.status-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.status-online {
+    background-color: #e8f5e9;
+    color: #2E7D32;
+}
+
+.status-offline {
+    background-color: #f5f5f5;
+    color: #616E7C;
+}
+
+.status-suspended {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.action-btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+    .action-btn i {
+        font-size: 0.8rem;
+    }
+
+.view-btn {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+    .view-btn:hover {
+        background-color: #bbdefb;
+        color: #1565c0;
+    }
+
+.edit-btn {
+    background-color: #fff8e1;
+    color: #f57c00;
+}
+
+    .edit-btn:hover {
+        background-color: #ffe082;
+        color: #e65100;
+    }
+
+.delete-btn {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+    .delete-btn:hover {
+        background-color: #ef9a9a;
+        color: #b71c1c;
+    }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+
+.page-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+    .page-btn:hover:not(.active):not(.disabled) {
+        border-color: #2E7D32;
+        color: #2E7D32;
+    }
+
+    .page-btn.active {
+        background-color: #2E7D32;
+        color: white;
+        border-color: #2E7D32;
+    }
+
+    .page-btn.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+/* 模态框样式 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+    .modal.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.modal-content {
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.modal.active .modal-content {
+    transform: translateY(0);
+}
+
+.modal-header {
+    padding: 1.2rem;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #616E7C;
+    transition: color 0.2s ease;
+    padding: 0.2rem 0.5rem;
+}
+
+    .close-modal:hover {
+        color: #c62828;
+    }
+
+.modal-body {
+    padding: 1.2rem;
+}
+
+.modal-footer {
+    padding: 1rem 1.2rem;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    background-color: #f9f9f9;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: #333;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: #2E7D32;
+        box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.1);
+    }
+
+    .form-control:disabled {
+        background-color: #f9f9f9;
+        cursor: not-allowed;
+        opacity: 0.8;
+    }
+
+/* 司机详情特有样式 */
+.driver-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.detail-item {
+    margin-bottom: 12px;
+}
+
+.detail-label {
+    font-size: 13px;
+    color: #6B7280;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.detail-value {
+    font-weight: 500;
+}
+
+.vehicle-info {
+    grid-column: 1 / -1;
+    padding: 16px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+    .vehicle-info h4 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+.rating {
+    color: #F59E0B;
+    font-weight: 500;
+}
+
+/* 响应式样式 */
+@media (max-width: 768px) {
+    .user-management {
+        padding: 1rem;
+        margin-top: 70px;
+    }
+
+    .management-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .search-box {
+        min-width: 100%;
+    }
+
+    .user-table {
+        font-size: 0.9rem;
+    }
+
+        .user-table th,
+        .user-table td {
+            padding: 0.8rem 0.5rem;
+        }
+
+    .action-btn {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.8rem;
+        margin-right: 0.3rem;
+    }
+
+        .action-btn span {
+            display: none;
+        }
+
+        .action-btn i {
+            font-size: 0.9rem;
+        }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-height: 85vh;
+    }
+
+    .driver-detail {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-filter {
+        gap: 0.8rem;
+    }
+
+    .filter-select {
+        flex: 1;
+        min-width: 45%;
+    }
+
+    .pagination {
+        gap: 0.3rem;
+    }
+
+    .page-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .modal-footer {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+        .modal-footer .btn {
+            width: 100%;
+        }
+}
