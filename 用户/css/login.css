@@ -1,0 +1,357 @@
+﻿/* KLUOBO 拼车出行网站 - 用户认证系统样式 */
+/* 完全独立实现，不依赖任何外部框架 */
+
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局样式 */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 36vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    padding: 1rem;
+}
+
+/* 背景图容器 */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+/* 主容器 */
+.auth-container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Logo样式 */
+.logo {
+    margin-bottom: 2rem;
+}
+
+    .logo h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2E7D32; /* 主色调：绿色 */
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0.5rem;
+    }
+
+    .logo p {
+        color: #616E7C; /* 中性色 */
+        font-size: 1rem;
+    }
+
+/* 表单容器 */
+.form-container {
+    position: relative;
+    width: 100%;
+}
+
+/* 表单卡片样式 */
+.form-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.form-card-active {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* 表单标题 */
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #323F4B;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* 表单样式 */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* 表单组样式 */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+    .form-group label {
+        display: block;
+        text-align: left;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #4A5568;
+        margin-bottom: 0.5rem;
+    }
+
+/* 输入框容器 */
+.input-container {
+    position: relative;
+}
+
+/* 输入框样式 */
+.form-input {
+    width: 100%;
+    padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+    border: 1px solid #CBD2D9;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+}
+
+    .form-input:focus {
+        outline: none;
+        border-color: #2E7D32;
+        box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.2);
+    }
+
+/* 输入框图标 */
+.input-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9AA5B1;
+}
+
+/* 密码切换按钮 */
+.password-toggle {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #9AA5B1;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .password-toggle:hover {
+        color: #2E7D32;
+    }
+
+/* 错误消息 */
+.error-message {
+    color: #E53935;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    text-align: left;
+}
+
+/* 记住我和忘记密码 */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+    .remember-me input {
+        margin-right: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+        accent-color: #2E7D32;
+    }
+
+    .remember-me label {
+        font-size: 0.75rem;
+        color: #4A5568;
+    }
+
+.forgot-password {
+    font-size: 0.75rem;
+    color: #2E7D32;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    .forgot-password:hover {
+        color: #1B5E20;
+    }
+
+/* 按钮样式 */
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+    .btn-primary:hover {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        transform: translateY(-2px);
+    }
+
+.btn-secondary {
+    background: linear-gradient(135deg, #1976D2 0%, #64B5F6 100%);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+    .btn-secondary:hover {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        transform: translateY(-2px);
+    }
+
+/* 表单切换链接 */
+.form-switch {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #616E7C;
+}
+
+    .form-switch a {
+        color: #2E7D32;
+        font-weight: 500;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .form-switch a:hover {
+            color: #1B5E20;
+        }
+
+/* 密码强度指示器 */
+.password-strength-container {
+    margin-top: 0.5rem;
+}
+
+.password-strength-bar {
+    height: 4px;
+    width: 100%;
+    background-color: #E4E7EB;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.password-strength-level {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.password-strength-text {
+    font-size: 0.75rem;
+    color: #616E7C;
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+/* 验证码倒计时 */
+.countdown {
+    font-size: 0.75rem;
+    color: #616E7C;
+}
+
+/* 重新发送验证码按钮 */
+.resend-code {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #2E7D32;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .resend-code:hover {
+        color: #1B5E20;
+    }
+
+    .resend-code:disabled {
+        color: #CBD2D9;
+        cursor: not-allowed;
+    }
+
+/* 忘记密码说明文本 */
+.forgot-password-desc {
+    font-size: 0.875rem;
+    color: #616E7C;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* 页脚 */
+.footer {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: #616E7C;
+}
+
+/* 表单切换动画 */
+.form-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#login-form {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#register-form, #forgot-password-form {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* 响应式调整 */
+@media (max-width: 480px) {
+    .form-card {
+        padding: 1.5rem;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+}

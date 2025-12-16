@@ -1,0 +1,340 @@
+﻿/* 个人中心页面样式 */
+.profile-page {
+    padding-bottom: 80px;
+}
+
+/* 未登录状态样式 */
+.not-logged-in {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.placeholder-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+
+.login-prompt h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.login-prompt p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.login-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* 已登录内容样式 */
+.profile-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+    border: 3px solid #F0FDF4;
+}
+
+.profile-info h2 {
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.member-level {
+    color: #6B7280;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+    .member-level i {
+        color: #FBBF24;
+        margin-left: 4px;
+    }
+
+.user-stats {
+    display: flex;
+    margin-top: 12px;
+}
+
+.stat-item {
+    margin-right: 24px;
+    text-align: center;
+}
+
+    .stat-item span:first-child {
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #2E7D32;
+    }
+
+    .stat-item span:last-child {
+        font-size: 0.75rem;
+        color: #6B7280;
+    }
+
+/* 菜单样式 */
+.profile-menu {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.menu-section {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
+
+    .menu-section h3 {
+        font-size: 0.875rem;
+        color: #9CA3AF;
+        padding: 0 24px 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+.menu-items {
+    border-top: 1px solid #F3F4F6;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    color: #1F2937;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid #F3F4F6;
+}
+
+    .menu-item:last-child {
+        border-bottom: none;
+    }
+
+    .menu-item:hover {
+        background-color: #F9FAFB;
+    }
+
+    .menu-item i:first-child {
+        width: 24px;
+        color: #2E7D32;
+        margin-right: 16px;
+        font-size: 1.1rem;
+    }
+
+    .menu-item i:last-child {
+        margin-left: auto;
+        color: #9CA3AF;
+        font-size: 0.875rem;
+    }
+
+/* 徽章和余额样式 */
+.badge {
+    background-color: #2E7D32;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    margin-left: auto;
+}
+
+.balance {
+    color: #2E7D32;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.version {
+    color: #9CA3AF;
+    margin-left: auto;
+    font-size: 0.875rem;
+}
+
+/* 切换开关样式 */
+.toggle-switch {
+    margin-left: auto;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5E7EB;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+input:checked + .slider {
+    background-color: #2E7D32;
+}
+
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+
+/* 未登录状态 */
+.not-logged-in {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.login-prompt {
+    text-align: center;
+    max-width: 300px;
+}
+
+.placeholder-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 2px dashed #E5E7EB;
+    padding: 1rem;
+}
+
+.login-prompt h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.login-prompt p {
+    color: #6B7280;
+    margin-bottom: 1.5rem;
+}
+
+.login-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+/* 弹窗样式 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #F3F4F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .modal-header h3 {
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6B7280;
+}
+
+.modal-body {
+    padding: 24px;
+}
+
+/* 头像上传样式 */
+.avatar-upload {
+    position: relative;
+    display: inline-block;
+}
+
+#avatar-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-avatar {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .user-stats {
+        justify-content: center;
+    }
+}
