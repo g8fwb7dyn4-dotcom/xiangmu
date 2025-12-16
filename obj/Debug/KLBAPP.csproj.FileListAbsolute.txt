@@ -1,0 +1,299 @@
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\KLBAPP.dll.config
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\KLBAPP.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\KLBAPP.pdb
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csc.exe
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csc.exe.config
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csc.rsp
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csi.exe
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csi.exe.config
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\csi.rsp
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.AppContext.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Console.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Net.Http.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.ValueTuple.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\vbc.exe
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\vbc.exe.config
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\vbc.rsp
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.AssemblyReference.cache
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.CoreCompileInputs.cache
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.Up2Date
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\obj\Debug\KLBAPP.dll
+C:\Users\ZhuanZ\Desktop\html项目\KLBAPP\KLBAPP\obj\Debug\KLBAPP.pdb
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll.config
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.pdb
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe.config
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.rsp
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe.config
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.rsp
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.AppContext.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Collections.Immutable.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Console.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Globalization.Calendars.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Http.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Sockets.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Reflection.Metadata.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.ValueTuple.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe.config
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.rsp
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe.config
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.AssemblyReference.cache
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.CoreCompileInputs.cache
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.Up2Date
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.dll
+D:\ch\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.pdb
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll.config
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.pdb
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe.config
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.rsp
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe.config
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.rsp
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.AppContext.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Console.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Http.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.ValueTuple.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe.config
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.rsp
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.AssemblyReference.cache
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.CoreCompileInputs.cache
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.Up2Date
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.dll
+C:\Users\ZhuanZ\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.pdb
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll.config
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.pdb
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.Up2Date
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.dll
+C:\Users\Administrator\Desktop\11111\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.pdb
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll.config
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\KLBAPP.pdb
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.csproj.Up2Date
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\obj\Debug\KLBAPP.pdb
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\HTML + JS卓越项目C# 版\KLBAPP\KLBAPP\bin\EntityFramework.SqlServer.xml

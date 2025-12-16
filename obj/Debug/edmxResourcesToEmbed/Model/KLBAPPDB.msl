@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KLBAPPDBModelStoreContainer" CdmEntityContainer="KLBAPPDBEntities1">
+    <EntitySetMapping Name="driver">
+      <EntityTypeMapping TypeName="KLBAPPDBModel.driver">
+        <MappingFragment StoreEntitySet="driver">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="register_time" ColumnName="register_time" />
+          <ScalarProperty Name="car_brand" ColumnName="car_brand" />
+          <ScalarProperty Name="car_model" ColumnName="car_model" />
+          <ScalarProperty Name="car_license" ColumnName="car_license" />
+          <ScalarProperty Name="car_color" ColumnName="car_color" />
+          <ScalarProperty Name="completed_order" ColumnName="completed_order" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order">
+      <EntityTypeMapping TypeName="KLBAPPDBModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="order_no" ColumnName="order_no" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="driver_id" ColumnName="driver_id" />
+          <ScalarProperty Name="start_place" ColumnName="start_place" />
+          <ScalarProperty Name="end_place" ColumnName="end_place" />
+          <ScalarProperty Name="order_time" ColumnName="order_time" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="system_config">
+      <EntityTypeMapping TypeName="KLBAPPDBModel.system_config">
+        <MappingFragment StoreEntitySet="system_config">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="config_key" ColumnName="config_key" />
+          <ScalarProperty Name="config_value" ColumnName="config_value" />
+          <ScalarProperty Name="config_desc" ColumnName="config_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="KLBAPPDBModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="register_time" ColumnName="register_time" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
