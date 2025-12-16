@@ -1,0 +1,573 @@
+﻿/* 基础样式重置与变量定义 */
+:root {
+    --primary-color: #2E7D32;
+    --primary-light: #4CAF50;
+    --primary-dark: #1B5E20;
+    --secondary-color: #F5F7FA;
+    --text-primary: #1F2937;
+    --text-secondary: #6B7280;
+    --text-light: #9CA3AF;
+    --white: #FFFFFF;
+    --warning-color: #F59E0B;
+    --border-radius: 16px;
+    --card-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    --hover-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+/* 顶部导航栏样式增强 */
+.navbar {
+    background-color: var(--white);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-link.active {
+    color: var(--primary-color);
+    font-weight: 500;
+    position: relative;
+}
+
+    .nav-link.active::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: var(--primary-color);
+        border-radius: 3px;
+        transition: var(--transition);
+    }
+
+/* 主内容区布局 */
+.main-content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+/* 卡片通用样式 */
+.card-shadow {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+    .card-shadow:hover {
+        box-shadow: var(--hover-shadow);
+        transform: translateY(-2px);
+    }
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.card-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* 车主信息卡片 */
+.profile-card {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+}
+
+.avatar-container {
+    position: relative;
+}
+
+.avatar-upload {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--secondary-color);
+}
+
+.profile-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.avatar-upload-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: var(--transition);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.avatar-upload:hover .avatar-upload-overlay {
+    opacity: 1;
+}
+
+.avatar-upload-input {
+    display: none;
+}
+
+.profile-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.driver-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: var(--white);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.2);
+}
+
+.verification-status {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    gap: 8px;
+}
+
+    .verification-status i {
+        font-size: 1rem;
+    }
+
+.user-stats {
+    display: flex;
+    gap: 32px;
+    margin-top: 8px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* 按钮样式优化 */
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    border: none;
+    font-size: 0.9rem;
+}
+
+.btn-outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+    .btn-outline:hover {
+        background-color: var(--primary-color);
+        color: var(--white);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(46, 125, 50, 0.2);
+    }
+
+/* 数据概览卡片组 */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+/* 收入卡片 */
+.earnings-card {
+    padding: 24px;
+    background: linear-gradient(135deg, #F0FDF4 0%, #ECFDF5 100%);
+    border: 1px solid #D1FAE5;
+}
+
+.earnings-amount {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.earnings-stats {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid rgba(46, 125, 50, 0.1);
+}
+
+.earnings-stat {
+    text-align: center;
+    flex: 1;
+    padding: 0 8px;
+}
+
+.earnings-stat-value {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin-bottom: 4px;
+}
+
+.earnings-stat-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+/* 车辆信息卡片 */
+.vehicle-card {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 20px;
+}
+
+.vehicle-image {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.vehicle-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vehicle-model {
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+}
+
+.vehicle-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+    .detail-item i {
+        color: var(--primary-color);
+        font-size: 0.9rem;
+    }
+
+.arrow-link {
+    color: var(--text-light);
+    transition: var(--transition);
+}
+
+    .arrow-link:hover {
+        color: var(--primary-color);
+    }
+
+/* 菜单样式 */
+.profile-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.menu-section {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    padding: 24px;
+    transition: var(--transition);
+}
+
+    .menu-section:hover {
+        box-shadow: var(--hover-shadow);
+        transform: translateY(-2px);
+    }
+
+.section-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .section-title::before {
+        content: '';
+        width: 4px;
+        height: 20px;
+        background-color: var(--primary-color);
+        border-radius: 2px;
+    }
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    background-color: var(--secondary-color);
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+    font-size: 0.95rem;
+}
+
+    .menu-item:first-child {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .menu-item:last-child {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+    .hover-effect::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(46, 125, 50, 0.05), transparent);
+        transition: var(--transition);
+    }
+
+    .hover-effect:hover::after {
+        left: 100%;
+    }
+
+.icon-primary {
+    color: var(--primary-color);
+    margin-right: 12px;
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.icon-secondary {
+    color: var(--text-light);
+    transition: var(--transition);
+}
+
+.menu-item:hover .icon-secondary {
+    color: var(--primary-color);
+}
+
+/* 徽章样式 */
+.badge {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.badge-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.badge-warning {
+    background-color: var(--warning-color);
+    color: var(--white);
+}
+
+/* 余额样式 */
+.balance {
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+
+/* 退出登录项特殊样式 */
+.logout-item {
+    color: #DC2626;
+}
+
+    .logout-item .icon-primary {
+        color: #DC2626;
+    }
+
+/* 动画效果 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-card, .earnings-card, .vehicle-card, .menu-section {
+    animation: fadeInUp 0.5s ease forwards;
+    opacity: 0;
+}
+
+.profile-card {
+    animation-delay: 0.1s;
+}
+
+.earnings-card {
+    animation-delay: 0.2s;
+}
+
+.vehicle-card {
+    animation-delay: 0.3s;
+}
+
+.menu-section:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+.menu-section:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+/* 响应式布局 */
+@media (max-width: 992px) {
+    .dashboard-cards, .profile-menu {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .profile-header {
+        justify-content: center;
+    }
+
+    .user-stats {
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .vehicle-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .vehicle-details {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        font-size: 0.85rem;
+        padding: 10px 0;
+    }
+
+    .earnings-amount {
+        font-size: 1.8rem;
+    }
+
+    .user-stats {
+        gap: 16px;
+    }
+
+    .stat-value {
+        font-size: 1.1rem;
+    }
+}

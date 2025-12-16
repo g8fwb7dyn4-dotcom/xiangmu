@@ -1,0 +1,204 @@
+﻿/* 车主页面通用样式 */
+.driver-status-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.status-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#current-status {
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+
+    #current-status.online {
+        background-color: #D1FAE5;
+        color: #10B981;
+    }
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 80px;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2E7D32;
+    margin-bottom: 4px;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+/* 订单列表样式 */
+.nearby-orders, .pending-orders {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.order-card {
+    border: 1px solid #F3F4F6;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+    .order-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transform: translateY(-2px);
+    }
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.order-id {
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+.order-time {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.order-route {
+    margin-bottom: 16px;
+}
+
+.route-point {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+    .route-point.start .point-marker {
+        background-color: #2E7D32;
+        color: white;
+    }
+
+    .route-point.end .point-marker {
+        background-color: #DC2626;
+        color: white;
+    }
+
+.point-info {
+    flex: 1;
+}
+
+    .point-info p {
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px dashed #E5E7EB;
+}
+
+.order-type {
+    display: inline-block;
+    background-color: #F0FDF4;
+    color: #2E7D32;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.order-price {
+    font-weight: 700;
+    color: #DC2626;
+    font-size: 1.1rem;
+}
+
+.order-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* 订单筛选样式 */
+.order-filters {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 16px 24px;
+    margin-bottom: 24px;
+}
+
+.filter-tabs {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 8px;
+}
+
+.filter-tab {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #F3F4F6;
+    color: #6B7280;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .filter-tab.active {
+        background-color: #2E7D32;
+        color: white;
+    }
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .order-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .order-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+        .order-actions button {
+            flex: 1;
+        }
+}

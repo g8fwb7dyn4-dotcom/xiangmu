@@ -1,0 +1,190 @@
+﻿/* 收入统计页面样式 */
+.earnings-overview, .chart-container, .earnings-details {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.date-filter {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.filter-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #E5E7EB;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+    .filter-btn.active {
+        background-color: #2E7D32;
+        color: white;
+        border-color: #2E7D32;
+    }
+
+.earnings-stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #F8FAFC;
+    border-radius: 12px;
+    border: 1px solid #F1F5F9;
+}
+
+.stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    color: #6B7280;
+}
+
+    .stat-header i {
+        font-size: 1.2rem;
+        color: #2E7D32;
+    }
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1E293B;
+    margin-bottom: 8px;
+}
+
+.stat-change {
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+
+    .stat-change.positive {
+        color: #10B981;
+    }
+
+    .stat-change.negative {
+        color: #EF4444;
+    }
+
+    .stat-change i {
+        margin-right: 4px;
+        font-size: 0.8rem;
+    }
+
+.chart-wrapper {
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.detail-filters {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#order-type-filter {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background-color: #F8FAFC;
+}
+
+.earnings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.earning-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #F8FAFC;
+    border: 1px solid #F1F5F9;
+    transition: all 0.3s ease;
+}
+
+    .earning-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+.earning-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.order-number {
+    font-weight: 500;
+}
+
+.earning-time {
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+.earning-details {
+    display: flex;
+    gap: 16px;
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+.order-type {
+    display: inline-block;
+    background-color: #F0FDF4;
+    color: #2E7D32;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.earning-amount {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+    .earning-amount.positive {
+        color: #10B981;
+    }
+
+    .earning-amount.negative {
+        color: #EF4444;
+    }
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .earnings-stats {
+        flex-direction: column;
+    }
+
+    .chart-wrapper {
+        height: 250px;
+    }
+
+    .earning-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .earning-amount {
+        align-self: flex-end;
+    }
+}
